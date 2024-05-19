@@ -1,12 +1,12 @@
 // index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import CharacterEquipmentApp from './components/CharacterEquipmentApp';
 import './index.css'; // Apply your styles here
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CharacterEquipmentApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
