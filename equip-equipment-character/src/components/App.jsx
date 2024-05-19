@@ -13,13 +13,17 @@ const CharacterEquipmentApp = () => {
   ];
 
   const equipment = [
-    { id: 1, name: 'Sword' },
-    { id: 2, name: 'Shield' },
-    { id: 3, name: 'Armor' },
-    { id: 4, name: 'Potion' },
-    { id: 5, name: 'Bow' },
-    { id: 6, name: 'Staff' },
+    { id: 1, name: 'Weapon' },
+    { id: 2, name: 'Helmet' },
+    { id: 3, name: 'Potion' },
+    { id: 4, name: 'Chest' },
+    { id: 5, name: 'Boots' },
+    { id: 6, name: 'Artifact'}
   ];
+
+  const inventory = [
+    { id: 1, type: 'sword', stats: {attack: 10}}
+  ]
 
   const onSelectCharacter = (character) => {
     setSelectedCharacter(character);
